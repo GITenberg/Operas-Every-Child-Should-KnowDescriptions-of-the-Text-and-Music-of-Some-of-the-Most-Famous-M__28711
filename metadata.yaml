@@ -13,6 +13,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/2265
     wikipedia: http://www.gutenberg.org/browse/authors/m#a40308
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/28711#Operas-Every-Child-Should-KnowDescriptions-of-the-Text-and-Music-of-Some-of-the-Most-Famous-M_
 gutenberg_bookshelf: Opera
 gutenberg_issued: '2009-05-07'
 gutenberg_type: Text
