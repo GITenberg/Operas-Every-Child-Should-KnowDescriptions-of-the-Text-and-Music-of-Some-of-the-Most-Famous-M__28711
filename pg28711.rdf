@@ -1,51 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:cc="http://web.resource.org/cc/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
 >
   <pgterms:ebook rdf:about="ebooks/28711">
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/siegfried1.mid">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2234</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-29T09:41:04</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N65012153f9724f21915d1a741fa087f3">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/faust1.mid">
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-22T09:32:36</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N4b44c0457ae94f5e9f791430a44c6e18">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1262</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nb7ad48b0f45446fa93f3f97c5bc0e83d">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Music -- History and criticism -- Juvenile literature</rdf:value>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Nf368b73a9768496f8642bd9cd25f8be6">
+        <rdf:value>Opera</rdf:value>
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
       </rdf:Description>
-    </dcterms:subject>
+    </pgterms:bookshelf>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/bohemian1.mid">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1161</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-22T00:24:30</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/lohengrin1.mid">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N14ea77012e474b2495edbea9aaa56727">
+          <rdf:Description rdf:nodeID="N5967a56ef38a43cdbd7f4010224813ad">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T12:46:28</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">439</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:marc010>11009908</pgterms:marc010>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/2265">
+        <pgterms:name>Bacon, Mary Schell Hoke</pgterms:name>
+        <pgterms:webpage rdf:resource="browse/authors/m#a40308"/>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1934</pgterms:deathdate>
+        <pgterms:alias>Bacon, Dolores</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1870</pgterms:birthdate>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/trovatore1.mid">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">681</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-26T13:00:40</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3764fdf415d048bb8bc198a1842c461b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/aida.mid">
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1745</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-26T14:11:16</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N73f6b8e870c747afa468ebc5eaa6f0cc">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
@@ -53,86 +64,159 @@
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/bohemian3.mid">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-22T01:07:48</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/trovatore3.mid">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-26T13:37:18</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2535</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">521</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ncabbc23812fd425289140554b42b945a">
+          <rdf:Description rdf:nodeID="Ne37afb945e31488abf31afbbb0d7e7b2">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:license rdf:resource="license"/>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/lohengrin2.mid">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T13:09:22</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/pinafore1.mid">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nec01df21998b418ba77a6ffc7529084b">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">853</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/rigoletto1.mid">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">734</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N79cda5a2f48646a5bb6acb6f9d2c825a">
+          <rdf:Description rdf:nodeID="N451cd71ccbb74b7283fff2cd41f854ec">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-26T10:36:04</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-26T12:40:34</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">878</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/cavalleria1.mid">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-24T11:40:38</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1074</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N7f1d410b5feb4d48896fb43e48144613">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/28711-h.htm">
         <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N7137db0fde1046fb86e40d3aa24cc52c">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-07T13:56:26</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2354798</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbfc2a69826b0460f9662f00807ab8c42">
+          <rdf:Description rdf:nodeID="N69065da807cc4b60ac512d9b862949d4">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">804790</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-07T13:32:55</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/cavalleria2.mid">
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-24T11:48:26</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">432</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd20fc6ad3a4d483a859de2f775da08a3">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:title>Operas Every Child Should Know
+Descriptions of the Text and Music of Some of the Most Famous Masterpieces</dcterms:title>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/gotterdammerung.mid">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ncfadc4ad50a44713bbf789f1628dc22c">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T11:27:30</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28711.kindle.images">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T08:23:27.957136</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2663644</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T03:43:00.999098</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N48164629f8464db091df70f13345383a">
+          <rdf:Description rdf:nodeID="N607c5358f6d6468aaedf5750b4ef9786">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5491375</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28711.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T03:42:51.326271</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2352509</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne5993539de044922831aa0ae7a5af461">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28711.rdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T03:43:04.559037</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49923</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N10d49ba346004fdba9491d9090a65a83">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nee9f1cc34a98428b9900cac551c34adf">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Operas -- Stories, plots, etc.</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-05-07</dcterms:issued>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/prophet2.mid">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5e5a5555fc354f649e7663120c89ffe8">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2187</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-25T11:40:48</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/carmen3.mid">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1100</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3bcbac12408d433da59afc82983ece61">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-23T02:04:08</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h.zip">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2354798</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-07T13:56:26</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2268ad478bdd4771b0c5bad615eae305">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N33d7ec5190f2431e8595480ea74422c7">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
@@ -141,23 +225,369 @@
       <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-8.txt">
         <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">694873</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-07T13:30:26</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N78e85d88d27d46b5a2fdf1690db5ca11">
+          <rdf:Description rdf:nodeID="N384b6a2e91374453bf22f8dfbe010567">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-07T13:30:26</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28711.kindle.noimages">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5392b67dc8d240b8b73591c892b26c8f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1406781</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T03:43:04.314033</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/trovatore4.mid">
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">553</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-26T13:50:42</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1f15d45981eb424c99b2c3aca4747b50">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N0d301d075eab4c4bb32cd017af31488a">
+        <rdf:value>Music -- History and criticism -- Juvenile literature</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/martha3.mid">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2921</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-24T02:08:38</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc3fb583ed92843acbef110182384215c">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/lohengrin3.mid">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T13:18:22</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1892</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N280cf7238fad4c7fbc4c1d1d70b306c0">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-07T13:30:27</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N06197262f0d248aab0273057c83fad5d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2276a972992a4cc8850f78a854508d6d">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">261836</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/martha2.mid">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb5c16b862fa6413088d5a19facac9b54">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">521</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-24T01:52:32</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/faust1.mid">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-22T09:32:36</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1262</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nafa3d8f255bd4eb0b869d08ea258bb83">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/rheingold.mid">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3533</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-28T11:56:20</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5bfeebaf53044a9f9dab6efdb13ed3dd">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/pinafore3.mid">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1019</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-26T10:52:48</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N23e37530e22d4e25ba511159d5dce227">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/rigoletto2.mid">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">712</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-26T12:47:46</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3aaca86e25304073bc8bdec725379e13">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/flute3.mid">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-25T12:11:28</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">366</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N48ad6a49f9984603b4be48856a8ad743">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/carmen1.mid">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1676</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-22T10:14:08</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4257adad21c24f27ad29a4bd847e70f3">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/robinhood.mid">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7631669e901f4f4db55694cabc64cbda">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">929</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-24T01:45:10</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/meistersinger.mid">
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T12:14:50</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndc096e3fdd114867970496953854a21b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/hansel.mid">
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N39568fb0d09b40e7ae70bc32d7a36215">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-24T11:17:06</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1336</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/bohemian2.mid">
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3222</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne9271d7b50b34bb7a68407ab404dd871">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-22T00:50:30</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N5911d095e0cc493c9c9a7d440dbb8e3c">
+        <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/flute2.mid">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-25T12:07:32</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">914</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N78a7753b1ea9454fa7072d33e5373539">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/rigoletto1.mid">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">734</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-26T12:40:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7213ce11f09f4e74a87e40540e9ea204">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/siegfried2.mid">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2316</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N90d8b070251640fea931e0c5603c8ece">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-29T09:56:34</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/prophet1.mid">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">582</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-25T11:18:28</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbfc9b597787b484582af18aa1c3ec7ef">
+          <rdf:Description rdf:nodeID="N26361bf2506e4957943f152a6a238136">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">582</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28711.txt.utf-8">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">695273</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N95da747277a94150bf753bd5f3889066">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T03:42:50.229291</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/bohemian1.mid">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1161</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na30972a80b934fb9812636395f5134e1">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-22T00:24:30</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/trovatore2.mid">
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-26T13:30:20</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2147</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N19b59f6d45be47b8a7c5679adac43827">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/carmen2.mid">
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-23T01:50:48</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1092</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8e71189d7c204428b63e3ef2f88ff9ea">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/pinafore2.mid">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6d76e3d4766a4e399ceae5cfb47d2665">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-26T10:44:34</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/siegfried1.mid">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2234</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-29T09:41:04</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4adaae2bad414102ac62c16feadb445c">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
@@ -165,557 +595,19 @@
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-8.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-07T13:30:27</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Naa185caaf58f46d280ed9fd5595cf4f7">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          <rdf:Description rdf:nodeID="Nb304682305384cd383cda51fb6a030fc">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">261940</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf52398677c784ae3ae035c2857cc015e">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          <rdf:Description rdf:nodeID="N459287e117c6405f8aeb304beb301929">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-07T13:30:27</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-07T13:30:27</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc5c548d113ba4f00b545999aea9402dc">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">261836</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne59d645db5364fa4959a8b11a094b469">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/rheingold.mid">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3533</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nccb9ac90bf864340b6ac79e7313c4279">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-28T11:56:20</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N84eedf21c54945fdafdc0b80a90e8159">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/martha2.mid">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N5a3a07aee2e14aaa939d5e04167641e2">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">521</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-24T01:52:32</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/28711-h.htm">
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-07T13:32:55</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">804790</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb9347e3c5ea04aa49668c534d7982f99">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28711.epub.noimages">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N85042be0d27243fd8e25d51af78b55f3">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T08:23:03.498616</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">303369</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/walkure.mid">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2160</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-29T00:09:48</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb7d973d70d56481bb9e13d88c5931085">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/meistersinger.mid">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N40cd85da14d744afba341f20a436c62c">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T12:14:50</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/cavalleria2.mid">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N818f2e5ce2bc4896ac59ea6093fd7977">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">432</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-24T11:48:26</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/gotterdammerung.mid">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T11:27:30</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Naabcf0ce902d4423afde56125e6b7e1c">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/martha3.mid">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-24T02:08:38</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2921</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N9471714a6ef34be196447f9b2e8e8726">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/faust2.mid">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1095</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb9b80201f8674246a50257eae8e70382">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-22T09:45:48</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/pinafore2.mid">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N4eff781695e74ff3852b66c892fc7c08">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-26T10:44:34</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/hansel.mid">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1336</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N3816b61f4e9e40eab5367605741de51f">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-24T11:17:06</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/pinafore3.mid">
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1019</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-26T10:52:48</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N16249af44904424f8940ab31920fa49a">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</pgterms:downloads>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/flute1.mid">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N97c25b8b569f434d8f323e56d402c301">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">830</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-25T11:49:04</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28711.txt.utf-8">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">695271</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N9c6da4cb2ea841b896fda99fde3029ed">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T08:22:49.583552</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/trovatore2.mid">
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb87a915021794f6e813d5f628ebe75de">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-26T13:30:20</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2147</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/trovatore3.mid">
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">521</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-26T13:37:18</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N638ea3dfd71a43c08c2bbd3e5cbe331d">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:title>Operas Every Child Should Know
-Descriptions of the Text and Music of Some of the Most Famous Masterpieces</dcterms:title>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/trovatore1.mid">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-26T13:00:40</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">681</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N67747726005b4c1b92e42de21d6495b8">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28711.epub.images">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6f521291b0b04235a4eaa2a8dd7e08fb">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2336744</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T08:23:05.831291</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/fidelio1.mid">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-22T02:40:20</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1943</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne7a3f33373474943884965981f7e29f1">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28711.plucker">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T14:22:50.263515</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc17a16f31dfb4cd9b92895448c18d878">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">407030</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/bohemian2.mid">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N71ea829ff8144bdd909812aa546073d0">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-22T00:50:30</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3222</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/fidelio2.mid">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N7486080218b24dd9a84a0a9a3fe6a4f8">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">779</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-22T09:14:24</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/trovatore4.mid">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-26T13:50:42</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N5ed3a36cffba4b329b00da747caa9e9f">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">553</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N6ad7d8f794f242aba790c320920e8517">
-        <rdf:value>Text</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-      </rdf:Description>
-    </dcterms:type>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28711.kindle.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">506832</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T08:23:08.632484</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N3f8f4113b3784d938c1fb47aaa83f8a1">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nac8d7f4fea864cfe8840da50214fb21a">
-        <rdf:value>Operas -- Stories, plots, etc.</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-05-07</dcterms:issued>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28711.qioo">
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">324026</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndd9612717c914ed7bf012454fff81c30">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T14:22:23.360449</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/martha1.mid">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">508</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N58c3d51b42eb4caeb21285f6b4199375">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-24T01:48:56</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/carmen2.mid">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1092</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nadebbd9d99914a1b915748e42acb125a">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-23T01:50:48</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N92d6163d556a4220aed314a5d2be91df">
-        <rdf:value>ML</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/carmen3.mid">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-23T02:04:08</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ncc2a8b1456f642b0a2b3978e772f043d">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1100</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/flute3.mid">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-25T12:11:28</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb5074c53491d4894ab677000dafd110e">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">366</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/robinhood.mid">
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-24T01:45:10</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">929</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nff0202b02d134eea8c858c825294b6f5">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/carmen1.mid">
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1676</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N434657fba612485e9e2c7c2b750ebfdd">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-22T10:14:08</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/aida.mid">
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-26T14:11:16</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N4711cb5d194e49cca15bfa2924c18edd">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1745</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/2265">
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1934</pgterms:deathdate>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1870</pgterms:birthdate>
-        <pgterms:alias>Bacon, Dolores</pgterms:alias>
-        <pgterms:name>Bacon, Mary Schell Hoke</pgterms:name>
-      </pgterms:agent>
-    </dcterms:creator>
-    <pgterms:marc010>11009908</pgterms:marc010>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/pinafore1.mid">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-26T10:36:04</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N000dd04ce5f2493ebf334962e249280e">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">878</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/faust3.mid">
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N2d34d11a0fa045559f66ad5e829a1ac2">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-22T10:00:52</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2275</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/flute2.mid">
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">914</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-25T12:07:32</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N8dacaf70ada143bc9e1ca1cfb77edaeb">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/siegfried2.mid">
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2316</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-29T09:56:34</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc99a05295e9e4889a32d721733fcb8a7">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
@@ -726,7 +618,7 @@ Descriptions of the Text and Music of Some of the Most Famous Masterpieces</dcte
         <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">367</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd7e7d1df64e840678db3c72d0c0b0702">
+          <rdf:Description rdf:nodeID="N9bd2a4c0a4b54b5f9bbe9e387102d391">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
           </rdf:Description>
@@ -734,98 +626,232 @@ Descriptions of the Text and Music of Some of the Most Famous Masterpieces</dcte
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/carmen4.mid">
+      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/28711/pg28711.cover.small.jpg">
         <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3053</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T03:43:04.376038</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfdb9c11e4f9a4e8089e7eecbda6ba9b3">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          <rdf:Description rdf:nodeID="Nb2b0058c4f6d43be893808f31b59bdc1">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3918</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-23T12:15:00</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/lohengrin1.mid">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/lohengrin2.mid">
         <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N3a44dc75f7e146e393785bd629a5d870">
+          <rdf:Description rdf:nodeID="N4c39507854074658ae333cec52784142">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">439</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T12:46:28</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">853</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T13:09:22</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/cavalleria1.mid">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1074</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-24T11:40:38</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Neef0a0c9704144b09d985682eedbe0ee">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/lohengrin3.mid">
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/28711/pg28711.cover.medium.jpg">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N09874d3afc1848bd8bb60ed1b117de5e">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          <rdf:Description rdf:nodeID="N422cd584057a480ca07a934dd50c20bd">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T13:18:22</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1892</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T03:43:04.431041</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19204</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28711.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T03:42:51.881244</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N089ada7cacd542dfba8e5d8368e70cf5">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">357819</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/martha1.mid">
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">508</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-24T01:48:56</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd443beb04cfc472ea2cbf50cc173e485">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/faust3.mid">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7834b50afc734f859b342515d3c5355f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2275</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-22T10:00:52</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/trovatore5.mid">
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-26T14:01:18</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc98c80838fc34289b5281df5f9232613">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1351</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N2ff759b2bcc14891821557c2fca45f63">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N4d35f9c636e34dff8fde995597971dd3">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/prophet2.mid">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/flute1.mid">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-25T11:49:04</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N96d9402a94d7415ab6c308e0dc9d2c50">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2187</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-25T11:40:48</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/rigoletto2.mid">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-26T12:47:46</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6ae2aefad676433a946b29c3a1eb9de8">
+          <rdf:Description rdf:nodeID="Na2691c4133d64aa08b591e91c4f1e43f">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">712</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">830</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711.txt">
         <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">695085</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-07T13:30:27</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N827f3076b0524344851a561f6c9ffbdc">
+          <rdf:Description rdf:nodeID="N6b1595e5f58e4231803166551e22586b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N03f548da9f1d49ceb11736e46e038dc9">
+        <rdf:value>ML</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/faust2.mid">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1095</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-22T09:45:48</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N397fb412a3f247ac9c3cb1e1af20faae">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">695085</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-07T13:30:27</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/carmen4.mid">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3918</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8a6ba222438448efbc5cfa13c1d563fe">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-23T12:15:00</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/walkure.mid">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-29T00:09:48</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2160</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N71a81b5ddd264e73816cbd7873349d39">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/fidelio2.mid">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb8639891bd3849e7a8988cb5a3331738">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">779</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-22T09:14:24</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/fidelio1.mid">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-22T02:40:20</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6b6f945fb2e8423595c9ec21e4b51e15">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1943</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28711/28711-h/music/bohemian3.mid">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2535</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/28711"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-22T01:07:48</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N984445e1ee654afaa246b5d50fbf1cd4">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
+  <rdf:Description rdf:about="browse/authors/m#a40308">
+    <dcterms:description>See also: Marbourg, Dolores</dcterms:description>
+  </rdf:Description>
 </rdf:RDF>
